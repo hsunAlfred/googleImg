@@ -124,8 +124,11 @@ class googleImg:
                     err.append(img_str)
 
         if err != []:
-            with open(f'./err/{folder}_{fileTime}.txt', 'w', encoding='utf-8') as f:
-                f.write('{}'.format("\n\n".join(err)))
+            try:
+                with open(f'./err/err_{fileTime}.txt', 'wa', encoding='utf-8') as f:
+                    f.write('{}'.format("\n\n".join(err)))
+            except:
+                pass
 
 
 def main(*otherKwds):
@@ -159,4 +162,4 @@ def main(*otherKwds):
 
 
 if __name__ == '__main__':
-    main("食譜")
+    main("食譜", "烤", "炸", "滷", "食物")
