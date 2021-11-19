@@ -162,4 +162,4 @@ def main(*otherKwds):
 
 
 if __name__ == '__main__':
-    main("食譜", "烤", "炸", "滷", "食物")
+    main("food", "ingredients", "cook")

@@ -1,21 +1,21 @@
 {
-    "主菜": [
-        "鮭魚",
-        "雞腿肉",
-        "排骨",
-        "香腸"
+    "main": [
+        "salmon",
+        "chicken thigh",
+        "ribs",
+        "sausage"
     ],
-    "副菜": [
-        "綠花椰菜",
-        "滷蛋",
-        "荷包蛋",
-        "豆芽菜",
-        "大番茄",
-        "青椒",
-        "茄子",
-        "四季豆"
+    "side": [
+        "green broccoli",
+        "spiced corned egg",
+        "poached egg",
+        "bean sprouts",
+        "tomato",
+        "green pepper",
+        "eggplant",
+        "green beans"
     ],
-    "主食": [
-        "白飯"
+    "Staple": [
+        "rice"
     ]
 }
