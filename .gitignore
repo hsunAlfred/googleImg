@@ -130,3 +130,7 @@ dmypy.json
 
 手動分類.py
 手動合併.py
+
+main_*
+side_*
+Staple_*
